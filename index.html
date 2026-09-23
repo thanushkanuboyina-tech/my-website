@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Just For You Fduu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- WELCOME SCREEN -->
+    <div id="welcome" class="welcome">
+
+        <div class="stars"></div>
+
+        <div class="welcome-content">
+
+            <p class="small-title">✨ A LITTLE SURPRISE FOR MY BEST FRIEND ✨</p>
+
+            <h1>
+                Hii <span>Fduu</span>❤️
+            </h1>
+
+            <p class="welcome-text">
+                Nen Nerchukuntuna Technology Medha oka China Universe and edhi neku nachuthundhi anukuntuna..<br>
+                just for you.
+                Nachakapothe nannu em anuku, but I hope you enjoy this little surprise. ❤️
+            </p>
+
+            <div class="secret-box">
+
+                <p>🔐 There's a secret word...
+                    Aa secret word enter cheste, nenu create chesina universe ki enter avvachu. ✨
+                    And the Logic is Aa Secret word nuve find cheyali.
+                </p>
+
+                <input
+                    type="text"
+                    id="secretInput"
+                    placeholder="Enter the secret word"
+                >
+
+                <button onclick="enterUniverse()">
+                    ✨ Enter chesi ee button click chey fdu
+                </button>
+
+                <p class="hint">
+                    Hint: It's something that makes you smile. 
+                    Aa secret word mana friendship ni represent chesthundhi.❤️
+                </p>
+
+                <p id="error"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- LOVE TRANSITION -->
+<div id="loveTransition" class="love-transition hidden">
+
+    <div class="love-stars"></div>
+
+    <div class="love-content">
+
+        <div class="heart-animation">
+            ❤️
+        </div>
+
+        <div class="heart-ring ring1"></div>
+        <div class="heart-ring ring2"></div>
+        <div class="heart-ring ring3"></div>
+
+        <p>
+            A little universe is opening...
+        </p>
+
+    </div>
+
+</div>
+
+
+    <!-- MAIN WEBSITE -->
+    <main id="universe" class="hidden">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <p class="tiny">
+                WELCOME TO MY LITTLE MEMORIES ✨
+
+            <h1>
+                Just For <span>You</span> fd garu ❤️
+            </h1>
+
+            <p>
+                Some people become memories.<br>
+                Some become a part of your story.
+            </p>
+
+            <button onclick="scrollToMoments()">
+                Ala Chudaku fdu e button click chey. ✨
+            </button>
+
+        </section>
+
+
+        <!-- MEMORIES -->
+        <section id="moments" class="moments">
+
+            <p class="tiny">
+                CHAPTER ONE
+            </p>
+
+            <h2>
+                Little Moments.<br>
+                <span>Big Memories.</span>
+            </h2>
+
+            <p class="description">
+                These aren't just pictures...
+                they're little pieces of our story. ❤️
+            </p>
+
+
+            <!-- MEMORY 1 -->
+            <div class="memory-group">
+
+                <div class="memory-heading">
+                    <span>01</span>
+
+                    <h3>
+                        Where Our Friendship Started Here✨
+                    </h3>
+
+                    <p>
+                        Edhi manam First Meet and manam Thesukuna First pics.🥰
+                        Naku aa Day and aa moments inka Gurthundhi.❤️
+                    </p>
+                </div>
+
+                <div class="photo-grid">
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo2.jpg"
+                            alt="Memory 1 Photo 1"
+                        >
+                    </div>
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo4.jpg"
+                            alt="Memory 1 Photo 2"
+                        >
+                    </div>
+
+                </div>
+                <center><p>Nv photos chudali anukunte avi click chey fdu full ga vastundhi.</p></center>
+
+            </div>
+
+
+            <!-- MEMORY 2 -->
+            <div class="memory-group">
+
+                <div class="memory-heading">
+                    <span>02</span>
+
+                    <h3>
+                        First Gift ❤️
+                    </h3>
+
+                    <p>
+                        Chala chinna gift ayina, kani aa gift lo unna feelings and memories nak chala istam.🥰
+                    </p>
+                </div>
+
+                <div class="photo-grid">
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo6.jpg"
+                            alt="Memory 2 Photo 1"
+                        >
+                    </div>
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo7.jpg"
+                            alt="Memory 2 Photo 2"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMORY 3 -->
+            <div class="memory-group">
+
+                <div class="memory-heading">
+                    <span>03</span>
+
+                    <h3>
+                        One Of My Favorites 🌙
+                    </h3>
+
+                    <p>
+                        Nen Odisa vacha fdu ne kosam First time and Edcha kuda velletapudu.
+                        Some memories don't need
+                        a special reason to become special.
+                    </p>
+                </div>
+
+                <div class="photo-grid">
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo3.jpg"
+                            alt="Memory 3 Photo 1"
+                        >
+                    </div>
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo5.jpg"
+                            alt="Memory 3 Photo 2"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MEMORY 4 -->
+            <div class="memory-group">
+
+                <div class="memory-heading">
+                    <span>04</span>
+
+                    <h3>
+                        And There Is More... 💫
+                    </h3>
+
+                    <p>
+                        Second time Odisa vacha and baga enjoy chesam fdu.🥰
+                        Malli vasta fdu and inka chala memories create cheddam.❤️
+                    </p>
+                </div>
+
+                <div class="photo-grid">
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo8.jpg"
+                            alt="Memory 4 Photo 1"
+                        >
+                    </div>
+
+                    <div class="gallery-card">
+                        <img
+                            class="gallery-photo"
+                            src="images/photo1.jpg"
+                            alt="Memory 4 Photo 2"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUESTION -->
+        <section class="question">
+
+            <p class="tiny">
+                ONE LITTLE QUESTION
+            </p>
+
+            <h2>
+                Do you remember<br>
+                <span>these moments?</span>
+            </h2>
+
+            <div class="buttons">
+
+                <button onclick="rememberYes()">
+                    Of course ❤️
+                </button>
+
+                <button onclick="rememberNo()">
+                    Maybe... 👀
+                </button>
+
+            </div>
+
+            <p id="questionAnswer"></p>
+
+        </section>
+
+
+        <!-- LETTER -->
+        <section class="letter">
+
+            <p class="tiny">
+                A LITTLE MESSAGE
+            </p>
+
+            <h2>
+                Something I<br>
+                <span>wanted to say...</span>
+            </h2>
+
+            <div class="letter-box">
+
+                <p>Hey fduu...</p>
+
+                <p>
+                    Lopala chudu fdu okati rasa nekosame ❤️
+                </p>
+
+                <button onclick="revealLetter()">
+                    Read the rest ✨
+                </button>
+
+                <div id="hiddenLetter" class="hidden">
+
+                    <p>
+                         First na life lo evaru una lekapoyina nv important fdu.
+                         First preference and first priority always nee kosame.❤️
+                         and I hope you know that.🥰
+
+                         Neku em kavali ana naku chepu and neku ye situation lo aina nenu nee side lone unta fdu.❤️
+                    </p>
+
+                    <p>
+                        No matter where life takes us,
+                        I hope we always have moments
+                        worth remembering. 🌙
+                    </p>
+
+                    <p>Keep smiling. TakeCare. ❤️</p>
+
+                    <p>
+                        Because your smile makes
+                        the world a little brighter. ❤️
+                        Inka Chala chepali kani time ledhu fdu..
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GIFT -->
+        <section class="gift-section">
+
+            <p class="tiny">
+                ONE LAST THING
+            </p>
+
+            <h2>
+                I kept something<br>
+                <span>for you...</span>
+            </h2>
+
+            <div
+                class="gift-box"
+                id="giftBox"
+                onclick="openGift()"
+            >
+
+                <div class="gift-lid">
+                    🎀
+                </div>
+
+                <div class="gift">
+                    🎁
+                </div>
+
+            </div>
+
+            <p class="click-text">
+                Tap the gift 🎁
+            </p>
+
+            <div
+                id="finalMessage"
+                class="final-message hidden"
+            >
+
+                <h2>Surprise! ❤️</h2>
+
+                <p>
+                    I hope you enjoyed this little surprise.
+                    It's just a small way to show how much
+                    I appreciate our friendship. ✨
+                </p>
+
+                <p>
+                    Never forget how special you are. ✨
+                    Na Life lo nee presence chala important and special.❤️
+                </p>
+
+                <div class="heart-big">
+                    ❤️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                Made with ❤️ just for you.
+            </p>
+
+            <p>
+                ✨ End of our little universe 🥲✨
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- FULL SCREEN PHOTO -->
+    <div id="photoModal" class="photo-modal hidden">
+
+        <button
+            class="modal-close"
+            onclick="closePhoto()"
+        >
+            ×
+        </button>
+
+        <button
+            class="modal-prev"
+            onclick="prevPhoto()"
+        >
+            ‹
+        </button>
+
+        <img
+            id="modalImage"
+            src=""
+            alt="Full Memory"
+        >
+
+        <button
+            class="modal-next"
+            onclick="nextPhoto()"
+        >
+            ›
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
